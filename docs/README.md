@@ -112,6 +112,8 @@ Ya casi acabamos, este es el último paso:
 
 * **Error: `MySQLdb.ProgrammingError: (1146, "La tabla ... no existe")`**
   * *¿Qué significa?* La base de datos está creada pero olvidaste hacer el Paso 4.
+
+
   * *¿Cómo se arregla?* Ve a phpMyAdmin, selecciona tu base de datos `online_store`, dale a la pestaña **Importar** y sube el archivo `.sql` de las tablas del proyecto.
 
 
