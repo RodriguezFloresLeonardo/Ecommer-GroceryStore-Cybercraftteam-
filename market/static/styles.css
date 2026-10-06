@@ -1,0 +1,280 @@
+/* ==========================================================
+   Transporte Express de Comida — tema principal
+   Cambia los colores desde aquí (variables :root)
+   ========================================================== */
+:root {
+  --brand: #055470;        /* color principal */
+  --brand-dark: #033a4f;
+  --brand-deep: #021f2b;
+  --brand-soft: #e3eef0;
+  --lime: #b5d334;         /* acento tomado del destello del logo */
+  --lime-dark: #8fae14;
+  --tomato: #e8553d;       /* acento cálido (jitomate de la hamburguesa) */
+  --tomato-dark: #c63f29;
+  --surface: #f2f7f7;
+  --card: #ffffff;
+  --ink: #10252d;
+  --muted: #5d7480;
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(5, 84, 112, .14);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--surface);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand, .btn, .tec-title {
+  font-family: 'Lilita One', 'DM Sans', sans-serif;
+  letter-spacing: .3px;
+  font-weight: 400;
+}
+
+a { color: var(--brand); }
+a:hover { color: var(--brand-dark); }
+
+/* ---------- Navbar ---------- */
+.tec-nav {
+  background: var(--brand);
+  box-shadow: 0 4px 18px rgba(2, 31, 43, .35);
+  padding: .55rem 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  border-bottom: 4px solid var(--lime);
+}
+.tec-nav .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  color: #fff;
+  font-size: 1.35rem;
+  line-height: 1.05;
+  white-space: normal;
+}
+.tec-nav .navbar-brand img {
+  height: 52px;
+  width: auto;
+  background: #fff;
+  border-radius: 14px;
+  padding: 3px 5px;
+}
+.tec-nav .navbar-brand span small {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .72rem;
+  color: var(--lime);
+  letter-spacing: .5px;
+}
+.tec-nav .nav-link { color: #fff !important; font-weight: 600; }
+.tec-nav .nav-link:hover { color: var(--lime) !important; }
+
+/* ---------- Botones ---------- */
+.btn {
+  border-radius: 999px;
+  padding: .55rem 1.5rem;
+  border-width: 2px;
+  transition: transform .15s, box-shadow .15s, background-color .15s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:focus-visible, a:focus-visible, .form-control:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 2px;
+}
+.btn-primary { background: var(--brand); border-color: var(--brand); }
+.btn-primary:hover, .btn-primary:focus { background: var(--brand-dark); border-color: var(--brand-dark); }
+.btn-danger { background: var(--tomato); border-color: var(--tomato); }
+.btn-danger:hover, .btn-danger:focus { background: var(--tomato-dark); border-color: var(--tomato-dark); }
+.btn-lime { background: var(--lime); border-color: var(--lime); color: var(--brand-deep); }
+.btn-lime:hover { background: var(--lime-dark); border-color: var(--lime-dark); color: #fff; }
+.btn-nav {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--brand-deep) !important;
+}
+.btn-nav:hover { background: #fff; border-color: #fff; }
+
+/* ---------- Formularios ---------- */
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem 1rem;
+}
+.form-card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--card);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.form-card.wide { max-width: 860px; }
+.form-card .card-head {
+  background: var(--brand);
+  color: #fff;
+  padding: 1.6rem 1.8rem 1.3rem;
+  text-align: center;
+  border-bottom: 5px solid var(--lime);
+}
+.form-card .card-head img {
+  height: 74px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 4px 8px;
+  margin-bottom: .7rem;
+}
+.form-card .card-head h1 { font-size: 1.55rem; margin: 0; line-height: 1.2; }
+.form-card .card-body-pad { padding: 1.8rem; }
+.form-card form .btn { min-width: 160px; }
+
+.form-control {
+  border-radius: 12px;
+  border: 2px solid var(--brand-soft);
+  padding: .65rem .9rem;
+  height: auto;
+  background: #fbfdfd;
+  color: var(--ink);
+}
+.form-control:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 .2rem rgba(5, 84, 112, .15);
+  background: #fff;
+}
+.form-text, small.form-text { color: var(--muted) !important; font-size: .8rem; }
+.form-group { margin-bottom: 1rem; }
+.form-row { margin-bottom: 1rem; }
+
+/* ---------- Pantalla de inicio / elección de rol ---------- */
+.hero {
+  background:
+    radial-gradient(circle at 85% 20%, rgba(181, 211, 52, .28), transparent 40%),
+    linear-gradient(135deg, var(--brand) 0%, var(--brand-deep) 100%);
+  color: #fff;
+  padding: 3.5rem 1rem 5.5rem;
+}
+.hero .hero-inner {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero .hero-text { flex: 1 1 340px; }
+.hero h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.02; margin-bottom: 1rem; }
+.hero p { font-size: 1.15rem; max-width: 34ch; color: #d4e6ec; }
+.hero .hero-logo {
+  flex: 0 1 300px;
+  background: #fff;
+  border-radius: 50% 50% 50% 14%;
+  padding: 1.6rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .35);
+  transform: rotate(-3deg);
+}
+.hero .hero-logo img { width: 100%; display: block; }
+
+.role-grid {
+  max-width: 1050px;
+  margin: -3.2rem auto 3rem;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+.role-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.6rem;
+  text-decoration: none !important;
+  color: var(--ink) !important;
+  border-bottom: 6px solid var(--brand);
+  transition: transform .18s, box-shadow .18s;
+  display: block;
+}
+.role-card:hover { transform: translateY(-5px); box-shadow: 0 16px 36px rgba(5, 84, 112, .24); }
+.role-card h2 { font-size: 1.6rem; color: var(--brand); margin-bottom: .3rem; }
+.role-card p { color: var(--muted); margin: 0; }
+.role-card.r-user { border-color: var(--lime); }
+.role-card.r-admin { border-color: var(--brand); }
+.role-card.r-seller { border-color: var(--tomato); }
+.role-card .ico { font-size: 2.2rem; display: block; margin-bottom: .3rem; }
+
+/* ---------- Opciones (login / registro, panel admin) ---------- */
+.choice-wrap { display: flex; flex-direction: column; gap: .9rem; padding: 1.8rem; }
+.choice-wrap .btn { width: 100%; padding: .85rem 1.4rem; font-size: 1.2rem; }
+.btn-outline-info {
+  color: var(--brand); border-color: var(--brand); background: #fff;
+}
+.btn-outline-info:hover { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+/* ---------- Tarjetas de producto / pedido ---------- */
+.catalog {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.4rem;
+}
+.catalog-empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 3rem 0; }
+.product-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .18s;
+}
+.product-card:hover { transform: translateY(-4px); }
+.product-card .thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--brand-soft);
+}
+.product-card .info { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; gap: .15rem; flex: 1; }
+.product-card .p-name { font-family: 'Lilita One', sans-serif; font-size: 1.3rem; color: var(--brand); margin: 0; }
+.product-card .p-brand { color: var(--muted); font-size: .9rem; margin: 0 0 .4rem; }
+.product-card .p-price {
+  align-self: flex-start;
+  background: var(--lime);
+  color: var(--brand-deep);
+  font-weight: 700;
+  border-radius: 999px;
+  padding: .15rem .8rem;
+  margin-bottom: .8rem;
+}
+.product-card .info form { margin-top: auto; }
+.product-card .info .btn { width: 100%; }
+.product-card .p-line { margin: 0; font-size: .95rem; }
+.product-card .p-line b { color: var(--brand); }
+.product-card .p-price.amount { background: var(--brand-soft); color: var(--brand); }
+
+.nav-form { margin: 0; display: flex; gap: .5rem; align-items: center; }
+.nav-form .form-control { min-width: 170px; }
+
+/* ---------- Total de pedido ---------- */
+.total-box { text-align: center; padding: 1.4rem 1rem .4rem; }
+.total-box .amount { font-family: 'Lilita One', sans-serif; font-size: 2.6rem; color: var(--tomato); }
+
+/* ---------- Mensajes flash ---------- */
+.flash-wrap { max-width: 720px; margin: 1rem auto 0; padding: 0 1rem; }
+.alert-warning { background: #fff7d6; border: 2px solid var(--lime); color: var(--brand-deep); border-radius: 14px; }
+
+@media (max-width: 576px) {
+  .tec-nav .navbar-brand { font-size: 1.1rem; }
+  .tec-nav .navbar-brand img { height: 42px; }
+  .nav-form { flex-wrap: wrap; padding: .5rem 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}

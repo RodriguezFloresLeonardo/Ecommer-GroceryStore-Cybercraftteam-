@@ -1,35 +1,25 @@
-<!-- inherit the template -->
-{% extends 'base.html' %} {% block title %} View the Orders{% endblock
-    %} {% block content %}
-    <div class="container-fuild">
-      <div class="row" style="margin-left: 20px;">
-        <!-- {% set userID = userID %} -->
-        {% for dict in list%}
-        <div class="col-3">
-          <div class="card" style="width: 15rem;margin: 5px;">
-            <img class="card-img-top" src="https://picsum.photos/100" alt="Card image cap"/>
-            <div class="card-body">
-              <h5 class="card-title text-primary">Payment Mode: {{dict.Mode}}</h5>
-              <h5 class="card-title text-success">Order ID: {{dict.Order_ID}}</h5>
-              <h5 class="card-title text-danger">Price: RS {{dict.Amount}}</h5>
-              <h5 class="card-title text-danger">Date {{dict.Date}}</h5>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
+{% extends 'base.html' %}
+{% block title %}Mis pedidos{% endblock %}
 
-      </div>
-      {% endblock %}
-    
-      {% block navBar %}
-      <div style="margin: 5px;">
-        <form class="form-inline my-2 my-lg-0" method="POST">
-            <button class="btn btn-danger my-2 my-sm-0 text-light " type="submit">Go Back</button>
-        </form>
-      </div>
-      <!-- <a class="btn btn-outline-success my-2 my-sm-0 text-light bg-dark" href="/home/{{user_id}}">Go Back</a> -->
-
-      {% endblock %}
-      
+{% block content %}
+<div class="catalog">
+  {% for dict in list %}
+  <div class="product-card">
+    <div class="info">
+      <h3 class="p-name">Pedido #{{ dict.Order_ID }}</h3>
+      <p class="p-line"><b>Pago:</b> {{ dict.Mode }}</p>
+      <p class="p-line mb-2"><b>Fecha:</b> {{ dict.Date }}</p>
+      <span class="p-price amount">RS {{ dict.Amount }}</span>
     </div>
-    
+  </div>
+  {% else %}
+  <p class="catalog-empty">Aún no tienes pedidos.</p>
+  {% endfor %}
+</div>
+{% endblock %}
+
+{% block navBar %}
+<form class="nav-form" method="POST">
+  <button class="btn btn-nav" type="submit">Volver</button>
+</form>
+{% endblock %}
