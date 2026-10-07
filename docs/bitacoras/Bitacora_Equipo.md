@@ -2,7 +2,7 @@
 
 **Proyecto:** Transporte Express de Comida (TEC) — basado en la plataforma E-Commerce GroStop (Python/Flask + MySQL)
 
-**Integrantes:** Leonardo Rodríguez Flores, Brauni Alexander Soto Córdova, Amaury Alí Tristán Córdova, Diego Rosas Vazquez y Diego Fernandez
+**Integrantes:** Leonardo Rodríguez Flores, Brauni Alexander Soto Córdova, Amaury Alí Tristán Córdova, Juan Diego Rosas Vazquez y Diego Fernandez Mendoza
 
 **Periodo registrado:** 5 al 6 de octubre de 2026
 
@@ -25,8 +25,8 @@ Como parte de esta adaptación, la plataforma fue renombrada **"Transporte Expre
 | Leonardo Rodríguez Flores | Líder de Proyecto / Líder de Requisitos / Analista de Sistemas / Desarrollador | Evaluar el cumplimiento de requisitos, identificar brechas y definir el plan de acción |
 | Brauni Alexander Soto Córdova | Desarrollador de Software / Full Stack | Clonar el repositorio, preparar el entorno, restaurar la base de datos y evaluar la arquitectura |
 | Amaury Alí Tristán Córdova | QA / Tester / Control de Versiones (Git) | Probar el sistema, administrar el repositorio, documentar hallazgos y proponer la identidad de marca |
-| Diego Rosas Vazquez | *(por definir)* | *(por definir)* |
-| Diego Fernandez | *(por definir)* | *(por definir)* |
+| Diego Rosas Vazquez | Arquitecto y Modelado UML | Construye el diagrama en casos de uso y un diagrama de clases/entidades del sistema |
+| Diego Fernandez | Analista de Datos/ percistencia / integración | Indentificxa las tablas, sus relaciones y qué puede hacer cada tipo de usuario según los permisos definidos |
 
 **Stack técnico:** Python (Flask), MySQL (XAMPP / phpMyAdmin), HTML5, CSS3 (Bootstrap), JavaScript, Jinja2, PyYAML, Git y GitHub.
 
