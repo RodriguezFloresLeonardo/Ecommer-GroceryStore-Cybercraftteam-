@@ -7,7 +7,7 @@ Objetivo del Sprint: Configurar el entorno de desarrollo local, restaurar la bas
 ## 1. Resumen Diario de Actividades (Daily Standup por Fecha)
 10 de septiembre de 2026:
 
-Leonardo Rodríguez Flores: Realizó la reunión de equipo para coordinar la revisión del funcionamiento del programa y definir la distribución de actividades [cite: 1, además de iniciar con la evaluación de los requisitos funcionales y no funcionales del sistema.
+Leonardo Rodríguez Flores: Realizó la reunión de equipo para coordinar la revisión del funcionamiento del programa y definir la distribución de actividades, además de iniciar con la evaluación de los requisitos funcionales y no funcionales del sistema.
 
 12 de Septiembre de 2026:
 
