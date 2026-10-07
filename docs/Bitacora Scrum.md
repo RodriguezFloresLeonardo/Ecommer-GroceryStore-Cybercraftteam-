@@ -1,4 +1,4 @@
-Bitácora General de Seguimiento (Sprint Scrum)
+#Bitácora General de Seguimiento (Sprint Scrum)
 Proyecto: Transporte Express de Comida (TEC) — basado en GroStop 
 Periodo del Sprint: 10 de septiembre al 6 de octubre de 2026 
 Objetivo del Sprint: Configurar el entorno de desarrollo local, restaurar la base de datos, estructurar el repositorio del equipo, definir el concepto del negocio enfocado en la cafetería del TecNM campus Matehuala y aplicar una primera mejora visual al frontend
