@@ -12,8 +12,11 @@ Leonardo Rodríguez Flores: Realizó la reunión de equipo para coordinar la rev
 3 de octubre de 2026:
 
 Brauni Alexander Soto Córdova: Clonó el repositorio original, creó un entorno virtual de Python (venv) y resolvió las incidencias de conexión a la base de datos configurando el archivo database.yaml .
+ 
  Diego Rosas Vázquez: Realizó la instalación y ejecución local del sistema, solucionó errores de dependencias y elaboró el diagrama de casos de uso y de clases/entidades basado en el esquema SQL .
+ 
  Diego Fernández Mendoza: Puso en marcha los servicios de Apache y MySQL en XAMPP y documentó el proceso de importación del archivo de respaldo (Dump.sql) mediante phpMyAdmin para solucionar la ausencia de tablas como customer .
+ 
  Amaury Alí Tristán Córdova: Creó el repositorio en GitHub e integró a todos los integrantes , verificó el acceso por roles , propuso opciones de identidad de marca  y actualizó la interfaz visual (frontend) añadiendo un logotipo y un diseño más cómodo.
 ## 2. Product Backlog / Tablero de Tareas con Fechas (Sprint Board)
 | Módulo / Área | Tarea o Requisito | Fecha de Registro | Estado | Responsable | Observaciones |
