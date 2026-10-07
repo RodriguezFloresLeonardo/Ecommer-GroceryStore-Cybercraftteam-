@@ -26,7 +26,6 @@ Brauni Alexander Soto Córdova: Clonó el repositorio original, creó un entorno
 | **Infraestructura** | Configuración del entorno local (Flask y dependencias) | 27 de septiembre de 2026  | Completado | Brauni Soto | Se aislaron las dependencias en un entorno virtual (`venv`). |
 | **Base de Datos** | Creación del esquema e importación del volcado SQL (`Dump.sql`) | 2 de octubre de 2026 | Completado | Brauni Soto, Diego Fernández, Diego Rosas | Se solucionó el error de la tabla `customer` faltante. |
 | **Control de Versiones** | Creación del repositorio en GitHub e integración del equipo | 1 de octubre de 2026  | Completado | Amaury Tristán | Quedó pendiente concluir el archivo `README`. |
-| **Modelado UML** | Diseño de casos de uso y diagrama de clases/entidades | 30 de septiembre de 2026 | Completado | Diego Rosas | Basado en las 15 tablas y la vista del sistema. |
 | **Identidad y Marca** | Definición del concepto, nombre ("TEC") y logotipo | 29 de septiembre de 2026  | Completado | Amaury Tristán | Adoptado oficialmente como *Transporte Express de Comida*. |
 | **Frontend / UI** | Mejora visual y adaptación del diseño en HTML/CSS y Bootstrap | 5 de octubre de 2026  | Completado | Amaury Tristán | Falta definir la paleta de colores oficial. |
 ## 3. Registro de Impedimentos y Soluciones con Fechas
