@@ -144,7 +144,7 @@ El proyecto cumple con el objetivo académico de simular una plataforma de comer
 
 ## 10. Pendientes y plan de acción
 
-| Pendiente | Responsable sugerido | Estado |
+| Pendiente | Responsable | Estado |
 |---|---|---|
 | Realizar el commit de los cambios de interfaz (logo, nombre y diseño) | Amaury | Realizado |
 | Agregar el diagrama UML al repositorio y terminar el README | Amaury / Brauni | Realizado |
