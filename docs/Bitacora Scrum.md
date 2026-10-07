@@ -16,48 +16,15 @@ Diego Rosas Vázquez: Realizó la instalación y ejecución local del sistema, s
 Diego Fernández Mendoza: Puso en marcha los servicios de Apache y MySQL en XAMPP y documentó el proceso de importación del archivo de respaldo (Dump.sql) mediante phpMyAdmin para solucionar la ausencia de tablas como customer .
 Amaury Alí Tristán Córdova: Creó el repositorio en GitHub e integró a todos los integrantes , verificó el acceso por roles , propuso opciones de identidad de marca  y actualizó la interfaz visual (frontend) añadiendo un logotipo y un diseño más cómodo.
 ## 2. Product Backlog / Tablero de Tareas con Fechas (Sprint Board)
-Módulo / Área
-Tarea o Requisito
-Fecha de Registro
-Estado
-Responsable
-Observaciones
-Infraestructura
-Configuración del entorno local (Flask y dependencias)
-27 de septiembre de 2026 
-Completado
-Brauni Soto 
-Se aislaron las dependencias en un entorno virtual (venv).
-Base de Datos
-Creación del esquema e importación del volcado SQL (Dump.sql)
-2 de octubre de 2026.
-Completado
-Brauni Soto, Diego Fernández, Diego Rosas 
-Se solucionó el error de la tabla customer faltante .
-Control de Versiones
-Creación del repositorio en GitHub e integración del equipo
-1 de octubre de 2026 
-Completado
-Amaury Tristán 
-Quedó pendiente concluir el archivo README.
-Modelado UML
-Diseño de casos de uso y diagrama de clases/entidades
-30 de septiembre de 2026 
-Completado
-Diego Rosas 
-Basado en las 15 tablas y la vista del sistema .
-Identidad y Marca
-Definición del concepto, nombre ("TEC") y logotipo
-29 de septiembre de 2026 
-Completado
-Amaury Tristán 
-Adoptado oficialmente como Transporte Express de Comida .
-Frontend / UI
-Mejora visual y adaptación del diseño en HTML/CSS y Bootstrap
-5 de octubre de 2026 
-Completado
-Amaury Tristán 
-Falta definir la paleta de colores oficial .
+| Módulo / Área | Tarea o Requisito | Fecha de Registro | Estado | Responsable | Observaciones |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Infraestructura** | Configuración del entorno local (Flask y dependencias) | 6 de octubre de 2026 | Completado | Brauni Soto | Se aislaron las dependencias en un entorno virtual (`venv`). |
+| **Base de Datos** | Creación del esquema e importación del volcado SQL (`Dump.sql`) | 6 de octubre de 2026 | Completado | Brauni Soto, Diego Fernández, Diego Rosas | Se solucionó el error de la tabla `customer` faltante. |
+| **Control de Versiones** | Creación del repositorio en GitHub e integración del equipo | 6 de octubre de 2026 | Completado | Amaury Tristán | Quedó pendiente concluir el archivo `README`. |
+| **Modelado UML** | Diseño de casos de uso y diagrama de clases/entidades | 6 de octubre de 2026 | Completado | Diego Rosas | Basado en las 15 tablas y la vista del sistema. |
+| **Identidad y Marca** | Definición del concepto, nombre ("TEC") y logotipo | 6 de octubre de 2026 | Completado | Amaury Tristán | Adoptado oficialmente como *Transporte Express de Comida*. |
+| **Frontend / UI** | Mejora visual y adaptación del diseño en HTML/CSS y Bootstrap | 6 de octubre de 2026 | En proceso | Amaury Tristán | Falta definir la paleta de colores oficial. |
+| **Requisitos y Análisis** | Evaluación de cumplimiento funcional (catálogo, carrito, usuarios) | 5-6 de octubre de 2026 | En proceso | Leonardo Rodríguez | El carrito opera bien, pero se requieren validaciones de seguridad en usuarios. |
 ## 3. Registro de Impedimentos y Soluciones con Fechas
 Incidencia 1 (6 de octubre de 2026): Fallos críticos de conexión al levantar Flask por primera vez debido a parámetros incorrectos en database.yaml y base de datos vacía .
 Solución aplicada: Creación manual del esquema, ajuste de credenciales del usuario root de XAMPP e importación correcta del archivo de respaldo .
