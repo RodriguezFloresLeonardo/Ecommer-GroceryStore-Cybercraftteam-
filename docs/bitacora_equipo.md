@@ -146,16 +146,16 @@ El proyecto cumple con el objetivo académico de simular una plataforma de comer
 
 | Pendiente | Responsable sugerido | Estado |
 |---|---|---|
-| Realizar el commit de los cambios de interfaz (logo, nombre y diseño) | Amaury | Pendiente |
-| Agregar el diagrama UML al repositorio y terminar el README | Amaury / Brauni | En proceso |
+| Realizar el commit de los cambios de interfaz (logo, nombre y diseño) | Amaury | Realizado |
+| Agregar el diagrama UML al repositorio y terminar el README | Amaury / Brauni | Realizado |
 | Documentar la estrategia de ramas y cómo se integran los cambios | Amaury | Pendiente |
-| Definir la paleta oficial de colores | Equipo | Pendiente |
+| Definir la paleta oficial de colores | Equipo | Realizado |
 | Obtener la lista de productos y precios de la cafetería | Equipo | Pendiente |
-| Traducir la interfaz al español | Leonardo / Brauni | Pendiente |
+| Traducir la interfaz al español | Leonardo / Brauni | En Proceso|
 | Definir pasarelas de pago, inventario, promociones y notificaciones | Leonardo | Pendiente |
-| Reforzar validación de usuarios y sesiones | Brauni | Pendiente |
-| Probar cada pantalla como Cliente y Administrador y registrar errores | Amaury | Continuo |
-| Verificar que el proyecto se levante con un solo comando en cada computadora | Todos | Pendiente |
+| Reforzar validación de usuarios y sesiones | Brauni | Realizado |
+| Probar cada pantalla como Cliente y Administrador y registrar errores | Amaury | Realizado |
+| Verificar que el proyecto se levante con un solo comando en cada computadora | Todos | En proceso |
 
 ## 11. Conclusiones
 
