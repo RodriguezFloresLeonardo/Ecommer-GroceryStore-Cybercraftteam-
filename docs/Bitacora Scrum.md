@@ -4,18 +4,20 @@ Periodo del Sprint: 10 de septiembre al 6 de octubre de 2026
 Objetivo del Sprint: Configurar el entorno de desarrollo local, restaurar la base de datos, estructurar el repositorio del equipo, definir el concepto del negocio enfocado en la cafetería del TecNM campus Matehuala y aplicar una primera mejora visual al frontend
 
 
-## 1. Resumen Diario de Actividades (Daily Standup por Fechas)
-28 de septiembre de 2026:
+## 1. Resumen Diario de Actividades (Daily Standup por Fecha)
+10 de septiembre de 2026:
 
 Leonardo Rodríguez Flores: Realizó la reunión de equipo para coordinar la revisión del funcionamiento del programa y definir la distribución de actividades [cite: 1, además de iniciar con la evaluación de los requisitos funcionales y no funcionales del sistema.
 
-3 de octubre de 2026:
+12 de Septiembre de 2026:
 
 Brauni Alexander Soto Córdova: Clonó el repositorio original, creó un entorno virtual de Python (venv) y resolvió las incidencias de conexión a la base de datos configurando el archivo database.yaml .
  
  Diego Rosas Vázquez: Realizó la instalación y ejecución local del sistema, solucionó errores de dependencias y elaboró el diagrama de casos de uso y de clases/entidades basado en el esquema SQL .
  
  Diego Fernández Mendoza: Puso en marcha los servicios de Apache y MySQL en XAMPP y documentó el proceso de importación del archivo de respaldo (Dump.sql) mediante phpMyAdmin para solucionar la ausencia de tablas como customer .
+
+1 de octubre de 2026:
  
  Amaury Alí Tristán Córdova: Creó el repositorio en GitHub e integró a todos los integrantes , verificó el acceso por roles , propuso opciones de identidad de marca  y actualizó la interfaz visual (frontend) añadiendo un logotipo y un diseño más cómodo.
 ## 2. Product Backlog / Tablero de Tareas con Fechas (Sprint Board)
