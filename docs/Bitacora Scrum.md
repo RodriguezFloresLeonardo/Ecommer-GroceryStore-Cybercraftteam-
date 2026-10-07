@@ -30,12 +30,16 @@ Brauni Alexander Soto Córdova: Clonó el repositorio original, creó un entorno
 | **Identidad y Marca** | Definición del concepto, nombre ("TEC") y logotipo | 29 de septiembre de 2026  | Completado | Amaury Tristán | Adoptado oficialmente como *Transporte Express de Comida*. |
 | **Frontend / UI** | Mejora visual y adaptación del diseño en HTML/CSS y Bootstrap | 5 de octubre de 2026  | Completado | Amaury Tristán | Falta definir la paleta de colores oficial. |
 ## 3. Registro de Impedimentos y Soluciones con Fechas
-Incidencia 1 (6 de octubre de 2026): Fallos críticos de conexión al levantar Flask por primera vez debido a parámetros incorrectos en database.yaml y base de datos vacía .
+Incidencia 1 (14 de septiembre de 2026): Fallos críticos de conexión al levantar Flask por primera vez debido a parámetros incorrectos en database.yaml y base de datos vacía .
+
 Solución aplicada: Creación manual del esquema, ajuste de credenciales del usuario root de XAMPP e importación correcta del archivo de respaldo .
-Incidencia 2 (6 de octubre de 2026): Error al registrar usuarios nuevos porque la tabla customer no existía .
+
+Incidencia 2 (20 de septiembre de 2026): Error al registrar usuarios nuevos porque la tabla customer no existía .
+
 Solución aplicada: Se cargó el archivo .sql completo directamente desde phpMyAdmin .
+
 ## 4. Retrospectiva y Plan de Acción
-Evaluación del Ciclo (6 de octubre de 2026): Se cumplió con la meta de levantar la aplicación localmente, entender la estructura de datos y definir el enfoque institucional del proyecto [cite: 1, 2, 3, 4, 5]. Se detectó la necesidad de refactorizar el código backend a futuro (modularización con Blueprints) .
+Evaluación del Ciclo (22 de septiembre de 2026): Se cumplió con la meta de levantar la aplicación localmente, entender la estructura de datos y definir el enfoque institucional del proyecto. Se detectó la necesidad de refactorizar el código backend a futuro (modularización con Blueprints) .
 Siguientes Pasos (Backlog para el próximo Sprint):
 Definir la paleta oficial de colores de la marca y la lista de precios de la cafetería .
 Finalizar la documentación en el README y adjuntar los diagramas UML en GitHub .
